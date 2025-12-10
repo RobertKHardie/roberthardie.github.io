@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IndyCar Electric Conversion – Structural Motor Mount | Robert Hardie</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Case study of a structural motor mount for an IndyCar electric conversion by mechanical engineer Robert Hardie.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Robert Hardie</a>
+      <nav class="nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-page">
+    <!-- Hero -->
+    <section class="project-hero">
+      <div class="container project-hero-inner">
+        <div>
+          <h1>IndyCar Electric Conversion – Structural Motor Mount</h1>
+          <p class="project-subtitle">
+            Custom load-bearing motor mount enabling electric powertrain integration into a Reynard IndyCar chassis.
+          </p>
+        </div>
+        <div class="project-hero-meta">
+          <div><strong>Role:</strong> Mechanical design and analysis</div>
+          <div><strong>Tools:</strong> SolidWorks, FEA, technical documentation</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Overview</h2>
+        <p>
+          This project involved converting a vintage Reynard IndyCar chassis to an electric powertrain.
+          My primary responsibility was the design and analysis of the structural motor mount and load-bearing
+          member that supports the electric motor and ties it into the existing transaxle and chassis.
+        </p>
+        <p>
+          The assembly had to maintain alignment between the motor and transaxle, handle torque and
+          bump-related loading, and remain feasible to manufacture within the capabilities of a student
+          team working with limited machining resources.
+        </p>
+      </div>
+    </section>
+
+    <!-- Responsibilities -->
+    <section class="section section-alt">
+      <div class="container narrow">
+        <h2>Responsibilities &amp; Contributions</h2>
+        <ul>
+          <li>Led structural design of the motor mount and load-bearing member.</li>
+          <li>Developed and iterated CAD models for packaging, stiffness, and manufacturability.</li>
+          <li>Performed FEA on key load cases (drive torque, vertical loads, and bump/shock scenarios).</li>
+          <li>Established critical dimensions and tolerances for motor–transaxle alignment.</li>
+          <li>Produced detailed drawings and documentation for fabrication.</li>
+          <li>Participated in fabrication checks and fit-up with the existing chassis and transaxle.</li>
+          <li>Chaired team meetings related to the mechanical integration scope and maintained design documentation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Engineering Requirements</h2>
+        <p>
+          Key requirements for the motor mount and structural member included:
+        </p>
+        <ul>
+          <li>Maintain motor–transaxle shaft alignment within defined tolerances under load.</li>
+          <li>Support torque loads from the electric motor and driveline.</li>
+          <li>Withstand bump and shock loads transmitted through the chassis.</li>
+          <li>Fit within existing chassis geometry and mounting points without invasive modifications.</li>
+          <li>Be manufacturable with available machining and fabrication resources.</li>
+          <li>Allow reasonable access for assembly and maintenance of adjacent components.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Design & Analysis -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="two-column">
+          <div>
+            <h2>Design &amp; Analysis</h2>
+            <p>
+              I began with a survey of the existing chassis hardpoints and transaxle mounting surfaces,
+              then developed several conceptual layouts for the motor mount and supporting structure.
+              After selecting a concept, I modelled the full assembly in CAD, focusing on load paths,
+              stiffness, and manufacturability.
+            </p>
+            <p>
+              FEA was used to evaluate stress and deflection under multiple load cases, including
+              drive torque and vertical loads derived from vehicle mass and acceleration conditions.
+              Iterations focused on:
+            </p>
+            <ul>
+              <li>Reducing stress concentrations at transitions and weld regions.</li>
+              <li>Improving stiffness to limit misalignment under load.</li>
+              <li>Simplifying machining and weld access where possible.</li>
+            </ul>
+          </div>
+          <div class="project-side-image">
+            <!-- Replace with a real FEA / CAD image -->
+            <div class="project-image-placeholder tall">
+              <span>CAD / FEA render</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fabrication & Outcome -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Fabrication &amp; Outcome</h2>
+        <p>
+          The final design was released with detailed drawings, including critical datums and tolerances.
+          Components were machined and welded according to the drawings, then trial-fit to the chassis and
+          transaxle.
+        </p>
+        <p>
+          The assembly met the packaging and alignment requirements and provided a robust structure for the
+          electric motor installation. This work contributed to a major milestone in the overall IndyCar
+          electric conversion and established a foundation for future system integration and testing.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery (optional images) -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Project Gallery</h2>
+        <div class="gallery-grid">
+          <div class="project-image-placeholder">
+            <span>Chassis mounting points</span>
+          </div>
+          <div class="project-image-placeholder">
+            <span>Motor mount assembly</span>
+          </div>
+          <div class="project-image-placeholder">
+            <span>Installed view</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Robert Hardie. All rights reserved.</p>
+      <p>Mechanical Engineer · Metro Vancouver, BC</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
