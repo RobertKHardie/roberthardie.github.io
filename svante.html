@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Temperature-Controlled Test Rig for Carbon Capture | Robert Hardie</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Case study of a temperature-controlled test rig for carbon capture by mechanical engineer Robert Hardie.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Robert Hardie</a>
+      <nav class="nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-page">
+    <!-- Hero -->
+    <section class="project-hero">
+      <div class="container project-hero-inner">
+        <div>
+          <h1>Temperature-Controlled Test Rig for Carbon Capture</h1>
+          <p class="project-subtitle">
+            Test apparatus for evaluating carbon capture material performance under controlled temperature conditions.
+          </p>
+        </div>
+        <div class="project-hero-meta">
+          <div><strong>Role:</strong> Mechanical and thermal design, instrumentation</div>
+          <div><strong>Tools:</strong> CAD, basic thermal analysis, Arduino / DAQ</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Overview</h2>
+        <p>
+          This project involved designing and building a bench-scale test rig to evaluate a carbon capture
+          process under controlled temperature conditions. The system used thermoelectric elements, heat
+          spreading, insulation, and instrumentation to achieve stable plate temperatures and log data
+          during experiments.
+        </p>
+        <p>
+          I was responsible for the mechanical layout of the temperature-control assembly, integration of
+          sensors, and practical considerations around manufacturability, wiring, and repeatable setup.
+        </p>
+      </div>
+    </section>
+
+    <!-- Responsibilities -->
+    <section class="section section-alt">
+      <div class="container narrow">
+        <h2>Responsibilities &amp; Contributions</h2>
+        <ul>
+          <li>Designed the temperature-control plate stack-up, including heat spreader and insulation.</li>
+          <li>Integrated thermoelectric modules (TECs), heat sinks, and mechanical fastening strategy.</li>
+          <li>Selected and placed temperature sensors and associated instrumentation points.</li>
+          <li>Collaborated on control strategy and integration with the electronics/firmware team.</li>
+          <li>Created mechanical drawings and assembly instructions for fabrication and setup.</li>
+          <li>Assisted in initial testing and troubleshooting of system behaviour and temperature response.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Requirements -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Engineering Requirements</h2>
+        <p>
+          Key requirements for the temperature-controlled test rig included:
+        </p>
+        <ul>
+          <li>Provide a controlled, uniform plate temperature across the test area.</li>
+          <li>Reach and maintain specified setpoints within an acceptable tolerance band.</li>
+          <li>Accommodate the physical test sample geometry and mounting method.</li>
+          <li>Allow integration of multiple temperature sensors for monitoring and logging.</li>
+          <li>Remain compact and practical for lab use, with accessible wiring and components.</li>
+          <li>Be robust enough for repeated use and reconfiguration during development.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Design & Integration -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="two-column">
+          <div>
+            <h2>Design &amp; Integration</h2>
+            <p>
+              The temperature-control plate was structured as a stack-up of a heat spreader, thermoelectric
+              modules, and a heat sink, clamped together with a consistent preload. I designed the plate
+              geometry and mounting features to ensure good thermal contact while keeping the assembly
+              manufacturable with available tooling.
+            </p>
+            <p>
+              Cut-outs and routing features were added for cable management and sensor placement. I worked
+              with the electronics team to ensure adequate provisions for wiring, connectors, and clearance
+              around the test area.
+            </p>
+          </div>
+          <div class="project-side-image">
+            <!-- Replace with a real image -->
+            <div class="project-image-placeholder tall">
+              <span>Assembly / plate layout</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testing & Outcome -->
+    <section class="section">
+      <div class="container narrow">
+        <h2>Testing &amp; Outcome</h2>
+        <p>
+          Initial testing verified that the assembly could reach target temperatures and maintain them
+          within the specified band for extended periods. The rig provided a repeatable platform for
+          evaluating carbon capture samples under different thermal conditions.
+        </p>
+        <p>
+          The project demonstrated my ability to combine mechanical design, basic thermal considerations,
+          and practical lab-level integration, while documenting the system so that other team members
+          could operate and adapt it.
+        </p>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Project Gallery</h2>
+        <div class="gallery-grid">
+          <div class="project-image-placeholder">
+            <span>Exploded view</span>
+          </div>
+          <div class="project-image-placeholder">
+            <span>Assembled test rig</span>
+          </div>
+          <div class="project-image-placeholder">
+            <span>Instrumentation / wiring</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Robert Hardie. All rights reserved.</p>
+      <p>Mechanical Engineer · Metro Vancouver, BC</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
