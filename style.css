@@ -278,6 +278,13 @@ body {
   box-shadow: var(--shadow-soft);
 }
 
+.project-image-img {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  display: block;
+  border: 1px solid var(--border);
+}
+
 .project-image-placeholder {
   min-height: 160px;
 }
